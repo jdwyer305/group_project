@@ -1,0 +1,1753 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=1100" ,="" initial-scale="1," user-scaleable="yes&quot;">
+  <style>
+  /* CSS Style Sheet */
+@font-face {
+    font-family: 'roboto','Rubik','PT Serif', serif,'arial','Helvetica Neue', 'Helvetica', 'sans-serif';
+	}
+
+html {
+  background-image: url("https://www.augeanrobotics.com/images/Farmplants.jpg");
+  background-color: rgb(255,255,255,1);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height:100%;
+}
+
+
+#hone{
+	color:rgba(0,0,0,1);
+	font-size:20px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+
+/*Index*/
+#videobackground{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	width: auto;
+	overflow: hidden;
+	min-height: 100%;
+	max-height: 100%;
+	height: 938px;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(images/webbannerstill.jpg) no-repeat;
+	background-size: cover;
+}
+
+#videoPlayer{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(images/webbannerstill.jpg) no-repeat;
+    background-size: cover;
+}
+#videobasebar{
+	position: absolute;
+	bottom:0%;
+	height:80px;
+	left:0;
+	right:0;
+	background: linear-gradient(rgba(43,45,50,.1),rgba(43,45,50,.2));
+	width:100%;
+	text-align:center;
+}
+
+#videobasebarimage{
+	absolute: relative;
+	left:2px;
+	right:2px;
+}
+#videobasebar .videobasebarimage {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+
+}
+#videobasebar .videobasebarimage:hover {
+-webkit-filter: brightness(1.70);
+}
+
+
+#calltoaction2{
+    width: 1000px;
+	height: 80PX;
+	padding-bottom:35px;
+	position:relative;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 300px;
+	background: linear-gradient(rgba(193,0,42,0),rgba(168,5,0,0));
+	min-height: auto;
+	}
+#calltoaction25Burrointro{
+   	position:relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 660px;
+	top:00px;
+	}
+#calltoaction2BurroMeet{
+	text-shadow: .5px .5px .5px rgba(80,80,80,1);
+	position:absolute;
+	color:rgba(255,255,255,1);
+	font-size:100px;
+	font-weight: 900;
+	text-align:Left;
+	left:5px;
+}
+#calltoaction2BurroLogo{
+	position: absolute;
+	width: 352px;
+	height: 81px;
+	left: 300px;
+	top: 20px;
+}
+
+#calltoaction2Burrosubtext{
+	position: relative;
+	top:110px;
+	text-shadow: .5px .5px .5px rgba(80,80,80,1);
+	position:absolute;
+	color:rgba(255,255,255,1);
+	font-size:35px;
+	font-weight: 10;
+	font-style:italic;
+	text-align:center;
+}
+
+#calltoaction3{
+    width: 600PX;
+	padding-top:10px;
+	padding-bottom:0px;
+	height: 35PX;
+	position:absolute;
+	z-index: 100;
+	right: 220px;
+	top: 170px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0);
+	border-radius: 5px;
+	background: rgba(248,204,33,1);
+	min-height: auto;
+	font-size:20px;
+	font-weight: 900;
+	text-align:center;
+	}
+/* unvisited link - home page RED BOX*/
+#calltoaction3 a:link {
+    color: rgba(0,0,0,1);
+	text-decoration: none;
+}
+/* visited link */
+#calltoaction3 a:visited {
+    color: rgba(0,0,0,.9);
+	text-decoration: none;
+}
+/* mouse over link */
+#calltoaction3 a:hover {
+	color: rgba(69,122,28,1);
+}
+/* selected link */
+#calltoaction3 a:active {
+    color: rgba(69,122,28,1);
+	text-decoration: none;
+}
+
+#calltoaction4{
+    width: 320PX;
+	padding-top:10px;
+	padding-bottom:0px;
+	height: 35PX;
+	position:absolute;
+	z-index: 100;
+	top: 170px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0);
+	border-radius: 5px;
+	left: 120px;
+	background: rgba(69,122,28,1);
+	min-height: auto;
+	color:rgba(255,255,255,1);
+	font-size:20px;
+	font-weight: 900;
+	text-align:center;
+	}
+
+/* unvisited link - home page RED BOX*/
+#calltoaction4 a:link {
+    color: rgba(234,235,238,1);
+	text-decoration: none;
+}
+/* visited link */
+#calltoaction4 a:visited {
+    color: rgba(255,255,255,.9);
+	text-decoration: none;
+}
+/* mouse over link */
+#calltoaction4 a:hover {
+	color: rgba(250,250,250,1);
+	text-decoration: none;
+}
+/* selected link */
+#calltoaction4 a:active {
+    color: rgba(250,250,250,1);
+	text-decoration: none;
+}
+
+#footerhome{
+	position: absolute;
+	background-color: #2B2D32;
+	clear: both;
+	right: 0;
+	left: 0;
+	top:100%;
+	min-width:100%;
+	height: 500px;
+	overflow: hidden;
+	display:block;
+	}
+
+#footertest{
+	background-color: #2B2D32;
+	clear: both;
+	width:100%;
+	min-width: 1024px;
+	height: 250px;
+	overflow: auto;
+	padding-top: 0%;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	}
+
+/*Navigation Bar*/
+#header{
+	min-height: 76px;
+	padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left:0%;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: .35em;
+    font-size: 1em;
+	/* MAGIC HAPPENS HERE */
+    transform: translateZ(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    -webkit-transform: translateZ(0);
+    -webkit-font-smoothing: antialiased; /* seems to do the same in Safari */
+}
+#logo{
+	width:118px;
+	height:45px;
+	padding-left:2%;
+	padding-top:3px;
+	z-index:10000;
+}
+
+#navcont{
+    clear:both;
+	display:inline-block;
+	height:50px;
+    width:100%;
+	min-width: 1024px;
+    overflow:hidden;
+	float:left;
+    background: linear-gradient(rgba(0,94,29,1),rgba(0,94,29,.9));
+}
+#navbar{
+    position: relative;
+	right: 0%;
+	top:-68px;
+    font-size: 15px;
+	text-align: right;
+    letter-spacing: .15em;
+    vertical-align: bottom;
+	display:block;
+	z-index:10000;
+}
+li{
+    list-style-type: none;
+    margin: 0px;
+	padding:10px;
+}
+ul#nav{
+    list-style-type: none;
+    margin:0px;
+    padding:10px;
+    }
+ul#nav li{
+    display:inline;
+    padding: 10px;
+    margin:0px;
+           }
+ ul#nav li:hover{
+    color: rgba(255,255,255,.8);
+        }
+ ul#nav li a:hover{
+    color: rgba(255,255,255,.8);
+        }
+ ul#nav a{
+    color: rgba(255,255,255,1);
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+/*Body*/
+
+body{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	margin-top: 0px;
+	min-width:1024px;
+	width: 100%;
+	font-family: 'roboto','Rubik','PT Serif', serif,'arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	overflow:scroll;
+}
+
+#main{
+  	width: 100%;
+	height:1000px;
+    overflow:hidden;
+    background-color: rgba(204,204,204,0.9);
+	float: left;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: .15em;
+    font-size: 1em;
+    color: rgba(43,45,50,1.0);
+}
+#mainspacer{
+  	width: 100%;
+	height:100px;
+    overflow:hidden;
+	background-color: rgba(204,204,204,0.9);
+	float: left;
+    display: block;
+}
+
+#contmain1{
+	margin: auto;
+	width:1024px;
+	height: 2925PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: Hidden;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+}
+
+/*Data Page only*/
+#contmaindata{
+	margin: auto;
+	width:1024px;
+	height: 1925PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: Hidden;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+}
+#datatitle1{
+	height:40px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	top:10px;
+	color:rgba(0,94,29,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+
+#datatitle2{
+	width:1024px;
+	height:40px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	top:10px;
+	color:rgba(80,80,80,1);
+	font-size:22px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+
+#databox1{
+	background-color: rgba(69,122,28,1);
+	position: absolute;
+	display: block;
+	top:200px;
+	width:500px;
+	height:220px;
+}
+
+#databox2{
+	background-color: rgba(80,80,80,1);
+	position: absolute;
+	display: block;
+	top:200px;
+	width:500px;
+	right:120px;
+	height:220px;
+}
+
+#dataaccent{
+	font-weight: bold;
+	color:rgba(248,204,33,1);
+}
+
+#datatitle3{
+	height:40px;
+	float: Center;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	top:10px;
+	left: 5px;
+	color:rgba(255,255,255,1);
+	font-size:22px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+#datatext1{
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	color:rgba(255,255,255,1);
+	font-size:14px;
+	text-align:left;
+	vertical-align:text-bottom;
+}
+#datatitle4{
+	height:40px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:absolute;
+	top:440px;
+	color:rgba(0,94,29,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+#datamap{
+	position: absolute;
+	top:500px;
+}
+/*Careers Page only*/
+#contmaincareers{
+	margin: auto;
+	width:1024px;
+	height: 1475PX;
+	background-color: rgba(255,255,255,.95);
+}
+#careerstitle{
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:absolute;
+	Top:120px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#careerstext{
+	min-height: auto;
+    overflow: Hidden;
+	top:100px;
+	position:relative;
+	color:rgba(0,0,0,1);
+	padding-left:1%;
+	padding-right:1%;
+	font-size:18px;
+	text-align:left;
+}
+#Openroles{
+	width:1024px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	top:125px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+}
+#cto{
+	top:150px;
+	position:relative;
+	padding-left:1%;
+	padding-right:1%;
+	font-size:19px;
+	text-align:left;
+}
+
+/* unvisited link */
+#cto a:link {
+    color: rgba(0,0,0,1);
+}
+/* visited link */
+#cto a:visited {
+    color: rgba(0,0,0,1);
+}
+/* mouse over link */
+#cto a:hover {
+	color: rgba(14,138,250,1);
+}
+/* selected link */
+#cto a:active {
+    color: rgba(14,138,250,1);
+}
+#careerswhatwedo{
+	min-height: auto;
+    overflow: Hidden;
+	top:200px;
+	position:relative;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+}
+
+/*news page only*/
+#contmain1news{
+	margin: auto;
+	width:1024px;
+	height: 4000PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: Hidden;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+	top:15px;
+}
+#newstitle{
+	position: relative;
+	width:1024px;
+	height:30px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	Top:30px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#news1{
+	position: relative;
+	top:85px;
+	width:1024px;
+	min-height: auto;
+    overflow: Hidden;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+	height:175px;
+}
+#news1text{
+	position: absolute;
+	Width: 700px;
+	left:324px;
+	top:35px;
+}
+#newsimage1{
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+#news2{
+	position: relative;
+	top:85px;
+	width:1024px;
+	height: auto;
+    overflow: Hidden;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+	height:400px;
+}
+#news2text{
+	position: absolute;
+	Width: 300px;
+	left:575px;
+	top:15px;
+}
+#news2mage1{
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+/*contact us page only*/
+#contactustitle{
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	top:10px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#map{
+}
+#contactfooter{
+	background-color: #2B2D32;
+	clear: both;
+	width:100%;
+	min-width: 1024px;
+	height: 250px;
+	overflow: auto;
+	padding-top: 0%;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	}
+/*where to buy page only*/
+#contmain1wheretobuy{
+	margin: auto;
+	width:1024px;
+	height: 1600PX;
+	background-color: rgba(255,255,255,.95);
+}
+#buy{
+	position: relative;
+	min-width: 1024px;
+	right:0px;
+	color:rgba(0,0,0,1);
+	font-size:30px;
+	font-weight:bold;
+	top:25px;
+}
+
+#buylease{
+	min-width: 1024px;
+	position: relative;
+	right:0px;
+	color:rgba(0,0,0,1);
+	font-size:20px;
+	font-weight:normal;
+	}
+#buyburronow{
+	position:relative;
+	min-width:1024px;
+	Height:514px;
+	overflow:hidden;
+	border: 2px solid rgba(80,80,80,.95);
+	top:25px;
+}
+#buyburroimage{
+	position:absolute;
+	left:0px;
+	width:1024px;
+	}
+
+#whatyouget{
+	position:absolute;
+	right:0px;
+	width:335px;
+	height:723px;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+}
+
+#whatyougettitle{
+	position:relative;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	position: relative;
+	top:15px;
+	}
+
+#paypal-button{
+	position: relative;
+	bottom:0px;
+	left:15px;
+	font-weight: bold;
+	}
+#wheretobuytext1{
+    position: relative;
+    overflow: Hidden;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+}
+#accessories{
+	position:relative;
+	color:rgba(80,80,80,1);
+	font-size:30px;
+	font-weight: bold;
+	position: relative;
+	min-width: 1024px;
+	text-align:center;
+	padding-top:50px;
+	}
+
+#whatyougettitle2{
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	font-weight: bold;
+	padding-left:15px;
+	padding-top:15px;
+}
+#buyspacer{
+	height:2px;
+	min-width:1024px;
+	position: relative;
+}
+
+/*Index Page Only*/
+#calltoaction{
+ float: left;
+    width: 950PX;
+	height: 100PX;
+	position:relative;
+	top:-300px;
+	left:35px;
+	background: linear-gradient(rgba(193,0,42,1),rgba(168,5,0,1));
+	min-height: auto;
+    text-align: justify;
+	color:rgba(255,255,255,1);
+	font-size:22px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+}
+
+/* unvisited link - home page RED BOX*/
+#calltoaction .navaction:link {
+    color: rgba(234,235,238,1);
+}
+/* visited link */
+#calltoaction .navaction:visited {
+    color: rgba(255,255,255,.9);
+}
+/* mouse over link */
+#calltoaction .navaction:hover {
+	color: rgba(14,138,250,1);
+}
+/* selected link */
+#calltoaction .navaction:active {
+    color: rgba(14,138,250,1);
+}
+
+/*Product Page 2*/
+
+#contmain1product2{
+	margin: auto;
+	width:100%;
+	height: 5600PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: auto;
+    }
+#productIntroducingBurro2{
+	margin:auto;
+	position: absolute;
+	left:30%;
+	right:20%;
+	top:15%;
+	overflow: Hidden;
+	font-size:35px;
+	font-weight: bold;
+	text-align:center;
+	z-index:100000;
+}
+#product2videoPlayer{
+	position: relative;
+    left: 50%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-0%);
+    -moz-transform: translateX(-50%) translateY(-0%);
+    -webkit-transform: translateX(-50%) translateY(-0%);
+    transform: translateX(-50%) translateY(-0%);
+    background: url(images/webbannerstill.jpg) no-repeat;
+    background-size: cover;
+}
+
+#navbarproduct2{
+	position:relative;
+	top:2px;
+	z-index: 10000000;
+	margin: auto;
+    width:100%;
+	overflow:hidden;
+	height: 100x;
+	Vertical-Align:text-bottom;
+	text-align:center;
+	font-size: 15px;
+    letter-spacing: .20em;
+	color: rgba(255,255,255,1);
+	background-color: rgba(43,45,50,1);
+}
+ul#navbarproduct2{
+    list-style-type: none;
+    margin:0px;
+    padding:10px;
+	color: rgba(255,255,255,1);
+    }
+ul#navbarproduct2 li{
+    display:inline;
+    padding: 10px;
+    margin:0px;
+	color: rgba(255,255,255,1);
+           }
+ ul#navbarproduct2 li:hover{
+    background: #32393f;
+	color: rgba(255,255,255,1);
+        }
+ ul#navbarproduct2 li a:hover{
+	color: rgba(255,255,255,1);
+        }
+ ul#navbarproduct2 a{
+    color: rgba(255,255,255,1);
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+#burroverviewproduct2{
+	position: relative;
+	height:40px;
+	left: 0;
+	right: 0;
+	top:15px;
+	Text-align: justify;
+	overflow: Hidden;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#productIntroducingburrotext2{
+	position: relative;
+	top:15px;
+	left: 0;
+	right: 0;
+	width: 1024px;
+	margin: auto;
+	padding-left:1%;
+	overflow: Hidden;
+	Background-color:;
+	color:rgba(0,0,0,1);
+	font-size:24px;
+	text-align:left;
+	}
+#productsBurroDemovideocontainer2{
+	position:relative;
+	margin: auto;
+	width:1024px;
+	left:0;
+	right:0;
+	top:25px;
+	overflow: Hidden;
+    }
+
+#usingaburro2{
+	position: relative;
+	height:32px;
+	left:0;
+	right:0;
+	top:15px;
+	Text-align: center;
+	overflow: Hidden;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+
+#GalleryTitle2{
+	position: relative;
+	height:32px;
+	left:0;
+	right:0;
+	top:25px;
+	overflow: Hidden;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#Gallery2{
+	position:relative;
+	margin: auto;
+	width:1024px;
+	left:0;
+	right:0;
+	top:35px;
+	overflow: Hidden;
+	}
+#ExpansionKits{
+	position: relative;
+	height:40px;
+	left:0;
+	right:0;
+	top:45px;
+	overflow: Hidden;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#ExpansionKitstext{
+	position: relative;
+	top:55px;
+	left: 0;
+	right: 0;
+	width: 1024px;
+	height: 350px;
+	margin: auto;
+	padding-left:1%;
+	overflow: Hidden;
+	Background-color:;
+	color:rgba(0,0,0,1);
+	font-size:24px;
+	text-align:left;
+}
+#ExpansionKitsimage{
+	position: absolute;
+	top:75px;
+	right: 0px;
+	z-index: 0;
+}
+
+#specificationstitle{
+	position: absolute;
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	Top:-70px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+
+#specificationstable{
+	position:relative;
+	margin: auto;
+	width:1024px;
+	left:0;
+	right:0;
+	top:105px;
+	overflow: visible;
+	}
+#spectabletitle{
+	position:relative;
+	font-size:24px;
+	font-weight: bold;
+	color:rgba(69,122,28,1);
+	padding-bottom:5px;
+	padding-top:5px;
+}
+#spectableblock{
+	position:relative;
+	width:1024px;
+	display:block;
+	margin-top:auto;
+	padding-top:5px;
+}
+#spectablespectitle{
+	position:relative;
+	display:inline-block;
+	width:298px;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: rgba(80,80,80,1);
+	font-size:18px;
+	font-weight: bold;
+	color:rgba(43,45,50,1);
+}
+#spectablespec{
+	position:relative;
+	display:inline-block;
+	width:720px;
+	top:0px;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: rgba(80,80,80,1);
+	font-size:18px;
+	font-weight: normal;
+	font-style:italic;
+	color:rgba(43,45,50,1);
+}
+#qa{
+	position:relative;
+	margin: auto;
+	width:1024px;
+	left:0;
+	right:0;
+	top:105px;
+	overflow: visible;
+	}
+#qatitle{
+	position: relative;
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	Top:50px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#qatext{
+	position: relative;
+	top:50px;
+	left: 0;
+	right: 0;
+	width: 1024px;
+	margin: auto;
+	padding-left:1%;
+	overflow: Hidden;
+	Background-color:;
+	color:rgba(0,0,0,1);
+	font-size:24px;
+	text-align:left;
+	}
+
+#footerproduct2{
+	background-color: #2B2D32;
+	clear: both;
+	width:100%;
+	min-width: 1024px;
+	height: 250px;
+	overflow: auto;
+	padding-top: 0%;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	}
+
+/*Product Page 2*/
+
+#contmain1product2researchrobot{
+	margin: auto;
+	width:100%;
+	height: 5000PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: auto;
+    }
+#productIntroducingBurro2researchrobot{
+	position: absolute;
+	left:0;
+	right:0;
+	Top:285px;
+	overflow: Hidden;
+	background-color: rgba(0,0,0,.3);
+	color:rgba(250,250,250,1);
+	text-shadow: 1px 1px 1px rgba(80,80,80,1);
+	font-size:35px;
+	height:140px;
+	font-weight: bold;
+	text-align:center;
+	z-index:100000;
+}
+#product2videoPlayerresearchrobot{
+	position: relative;
+    left: 50%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-0%);
+    -moz-transform: translateX(-50%) translateY(-0%);
+    -webkit-transform: translateX(-50%) translateY(-0%);
+    transform: translateX(-50%) translateY(-0%);
+    background: url(images/webbannerstill.jpg) no-repeat;
+    background-size: cover;
+}
+
+#navbarproduct2researchrobot{
+	position:relative;
+	top:2px;
+	z-index: 10000000;
+	margin: auto;
+    width:100%;
+	overflow:hidden;
+	height: 100x;
+	Vertical-Align:text-bottom;
+	text-align:center;
+	font-size: 15px;
+    letter-spacing: .20em;
+	color: rgba(255,255,255,1);
+	background-color: rgba(47,101,170,1);
+}
+ul#navbarproduct2researchrobot{
+    list-style-type: none;
+    margin:0px;
+    padding:10px;
+	color: rgba(255,255,255,1);
+    }
+ul#navbarproduct2researchrobot li{
+    display:inline;
+    padding: 10px;
+    margin:0px;
+	color: rgba(255,255,255,1);
+           }
+ ul#navbarproduct2researchrobot li:hover{
+    background: #32393f;
+	color: rgba(255,255,255,1);
+        }
+ ul#navbarproduct2researchrobot li a:hover{
+	color: rgba(255,255,255,1);
+        }
+ ul#navbarproduct2researchrobot a{
+    color: rgba(255,255,255,1);
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+#burroverviewproduct2researchrobot{
+	position: relative;
+	height:32px;
+	left: 0;
+	right: 0;
+	top:15px;
+	Text-align: justify;
+	overflow: Hidden;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#productIntroducingburrotext2researchrobot{
+	position: relative;
+	top:15px;
+	left: 0;
+	right: 0;
+	width: 1024px;
+	margin: auto;
+	padding-left:1%;
+	overflow: Hidden;
+	Background-color:;
+	color:rgba(0,0,0,1);
+	font-size:24px;
+	text-align:left;
+	}
+#productsBurroDemovideocontainer2researchrobot{
+	position:relative;
+	margin: auto;
+	width:1024px;
+	left:0;
+	right:0;
+	top:25px;
+	overflow: Hidden;
+    }
+
+#usingaburro2researchrobot{
+	position: relative;
+	height:32px;
+	left:0;
+	right:0;
+	top:15px;
+	Text-align: center;
+	overflow: Hidden;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+
+#GalleryTitle2researchrobot{
+	position: relative;
+	height:32px;
+	left:0;
+	right:0;
+	top:25px;
+	overflow: Hidden;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#Gallery2researchrobot{
+	position:relative;
+	margin: auto;
+	width:1024px;
+	left:0;
+	right:0;
+	top:35px;
+	overflow: Hidden;
+	}
+.researchbutton {
+    background-color: rgba(69,122,28,.95);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#researchbuttonleft{
+	Position: absolute;
+	left:0px;
+	top: 200px;
+	width:80px;
+	}
+#researchbuttonright{
+	Position: absolute;
+	left:932px;
+	top: 200px;
+	width:80px;
+	}
+
+#ExpansionKitsresearchrobot{
+	position: relative;
+	height:50px;
+	left:0;
+	right:0;
+	top:45px;
+	overflow: Hidden;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#ExpansionKitstextresearchrobot{
+	position: relative;
+	top:55px;
+	left: 0;
+	right: 0;
+	width: 1024px;
+	height: 500px;
+	margin: auto;
+	padding-left:1%;
+	overflow: Hidden;
+	Background-color:;
+	color:rgba(0,0,0,1);
+	font-size:24px;
+	text-align:left;
+}
+
+#specificationstitleresearchrobot{
+	position: absolute;
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	Top:-70px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+
+#specificationstableresearchrobot{
+	position:relative;
+	margin: auto;
+	width:1024px;
+	left:0;
+	right:0;
+	top:105px;
+	overflow: visible;
+	}
+#spectabletitleresearchrobot{
+	position:relative;
+	font-size:24px;
+	font-weight: bold;
+	color:rgba(69,122,28,1);
+	padding-bottom:5px;
+	padding-top:5px;
+}
+#spectableblockresearchrobot{
+	position:relative;
+	width:1024px;
+	display:block;
+	margin-top:auto;
+	padding-top:5px;
+}
+#spectablespectitleresearchrobot{
+	position:relative;
+	display:inline-block;
+	width:298px;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: rgba(80,80,80,1);
+	font-size:18px;
+	font-weight: bold;
+	color:rgba(43,45,50,1);
+}
+#spectablespecresearchrobot{
+	position:relative;
+	display:inline-block;
+	width:720px;
+	top:0px;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: rgba(80,80,80,1);
+	font-size:18px;
+	font-weight: normal;
+	font-style:italic;
+	color:rgba(43,45,50,1);
+}
+
+#footerresearchrobot{
+	background-color: #2B2D32;
+	clear: both;
+	width:100%;
+	min-width: 1024px;
+	height: 250px;
+	overflow: auto;
+	padding-top: 0%;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	}
+
+
+
+
+
+/*Product Page*/
+
+#contmain1product{
+	margin: auto;
+	width:1024px;
+	height: 3200PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: Hidden;
+    }
+
+#productIntroducingMorti{
+	position: absolute;
+	width:1024px;
+	height:100px;
+	overflow: Hidden;
+	Top:400px;
+	color:rgba(250,250,250,1);
+	text-shadow: 3px 3px 10px rgba(0,0,0,1);
+	font-size:33px;
+	font-weight: bold;
+	text-align:center;
+	}
+#burro11{
+	display: inline-block;
+	min-width:1024px;
+	max-width:100%;
+	margin: auto;
+	overflow: Hidden;
+	}
+
+#burroverviewproduct{
+	position: absolute;
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	Top:575px;
+	color:rgba(168,5,0,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#productIntroducingMortitext1{
+	position: absolute;
+	width:1024px;
+	margin-left: 1 auto;
+	overflow: Hidden;
+	Top:620px;
+	Background-color:;
+	color:rgba(0,0,0,1);
+	font-size:24px;
+	text-align:left;
+	}
+#usingaburro{
+	position: absolute;
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	Top:1010px;
+	color:rgba(168,5,0,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#productsBurroDemovideocontainer{
+	margin: auto;
+	Background-color: rgba(255,255,255,1);
+	margin:auto;
+	width:1024px;
+	height:100px;
+	position: absolute;
+	Top:1080px;
+	height:700px;}
+
+#GalleryTitle{
+	position: absolute;
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	top:1695px;
+	color:rgba(168,5,0,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#Gallery{
+	position:absolute;
+	margin: auto;
+	width:1024px;
+	top:1770px;
+	left:0%;
+	right:0%;
+	overflow: Hidden;
+	}
+.button {
+    background-color: rgba(69,122,28,.95);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#productbuttonleft{
+	Position: absolute;
+	left:0px;
+	top: 225px;
+	width:80px;
+	}
+#productbuttonright{
+	Position: absolute;
+	left:932px;
+	top: 225px;
+	width:80px;
+	}
+#buyproduct{
+	position:absolute;
+	top: 2590px;
+	width:1024px;
+	}
+#footerproduct{
+	background-color: #2B2D32;
+	clear: both;
+	width:100%;
+	min-width: 1024px;
+	height: 300px;
+	overflow: auto;
+	padding-top: 0%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	top: 3200px;
+	float: left;
+	overflow: hidden;
+	}
+#menurobot2 {
+    position: absolute;
+	top: 20px;
+	display: inline;
+	height: 40px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left:0%;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .35em;
+    font-size: 1em;
+	z-index: 100;
+	color: rgba(255,255,255,1);
+	/* MAGIC HAPPENS HERE */
+    transform: translateZ(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    -webkit-transform: translateZ(0);
+    -webkit-font-smoothing: antialiased; /* seems to do the same in Safari */
+}
+
+
+
+
+/*Company Page*/
+#contmainteam{
+	margin: auto;
+	width:100%;
+	height: 3805PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: Hidden;
+}
+
+#teampicvideoPlayer{
+	position: relative;
+    left: 50%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-0%);
+    -moz-transform: translateX(-50%) translateY(-0%);
+    -webkit-transform: translateX(-50%) translateY(-0%);
+    transform: translateX(-50%) translateY(-0%);
+    background: url(images/webbannerstill.jpg) no-repeat;
+    background-size: cover;
+}
+#whowearetitle{
+	position: relative;
+	width:1024px;
+	margin:auto;
+	height:32px;
+	Text-align: justify;
+	overflow: Hidden;
+	top: 5px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#whowearetext{
+	position: relative;
+	width:1024px;
+	overflow: Hidden;
+	margin:auto;
+	Top:5px;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+	}
+#ourteamtitle{
+	position: relative;
+	width:1024px;
+	height:40px;
+	Text-align: justify;
+	overflow: Hidden;
+	margin:auto;
+	Top:5px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#ourteamtext{
+	position: relative;
+	width:1024px;
+	overflow: Hidden;
+	height:420px;
+	Top:5px;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+	margin: auto;
+}
+#teambiobox{
+	position: relative;
+	top:5px;
+	height:2200px;
+	margin:auto;
+}
+
+#person{
+	width:1024px;
+	position:relative;
+	height:210px;
+	margin: auto;
+}
+#personpicture{
+	left:0px;
+	top:0px;
+	position: absolute;
+	}
+#persontextbox{
+	left:210px;
+	width:810px;
+	top:0px;
+	position: absolute;
+}
+#personname{
+	color:rgba(0,94,29,1);
+	font-size:22px;
+	font-weight:bold;
+}
+#persontitle{
+	color:rgba(80,80,80,1);
+	font-size:20px;
+	font-weight:200;
+}
+#personbio{
+	color:rgba(80,80,80,1);
+	font-size:17px;
+	text-align:Left;
+}
+#personlinks{
+	color:rgba(0,94,29,1);
+	font-size:22px;
+	text-align:Left;
+	font-weight:bold;
+	bottom:25px;
+}
+#placeswehailfrom{
+	position: relative;
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	Top:60px;
+	color:rgba(168,5,0,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#organizations{
+	position:relative;
+	min-width:1025px;
+	height:200px;
+	top:50px;
+	}
+#companyWhatwelovedo{
+	position: relative;
+	width:1024px;
+	height:40px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	Top:120px;
+	color:rgba(168,5,0,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#companywhatwedo{
+	position:relative;
+	min-width:1025px;
+	height:83px;
+	top:145px;
+	}
+</style>
+
+
+</head>
+  <body>
+
+    <div id="contmain1">
+         <div id="contactustitle">
+         Contact Us
+         </div>
+         	<br>
+  		<br>
+  		<p>If you are interested in learning more about Augean Robotics, investing in us, or have a question, please send
+         <a href="mailto:charlie@agrbt.com?Subject=I'd%20Like%20to%20Learn%20about%20AGR" target="_top">us a note</a>.</p>
+         <p>Visit our <a href="careers.html" target="_top">job opportunities page
+         </a> if you have a passion for real world robotics solutions to challenging problems and would like to work with us!</p>
+
+         <div id="contactustitle">
+         	We are headquartered in Philadelphia
+         </div>
+         	<br>
+  		<br>
+          <br>
+          <div id="map">
+  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.078541839022!2d-75.1794865483954!3d39.93963279233855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c61537cd1b93%3A0x32c27227e8dc643e!2s2025+Washington+Ave%2C+Philadelphia%2C+PA+19146!5e0!3m2!1sen!2sus!4v1520272094997" width="1024" height="768" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      	</div>
+
+         <div id="contactustitle">
+  			Our California Office
+         </div>
+         	<br>
+  		<br>
+          <br>
+          <div id="map">
+  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.9291920110018!2d-121.65800028415225!3d36.67620347997437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808df8c19f3cfd99%3A0xe2bcb73b732d9dca!2s150+Main+St+%23130%2C+Salinas%2C+CA+93901!5e0!3m2!1sen!2sus!4v1550588184893" width="1024" height="768" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      	</div>
+
+         <div id="contactustitle">
+  			Our PA Test Farm
+         </div>
+         	<br>
+  		<br>
+          <br>
+          <div id="map">
+  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.303497010855!2d-75.55272024752634!3d40.10396905844236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c68d9607e919dd%3A0x502712636b759e39!2s2432+Charlestown+Rd%2C+Phoenixville%2C+PA+19460!5e0!3m2!1sen!2sus!4v1506808854462" width="1024" height="768" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      	</div>
+
+      </div>
+  </body>
+</html>
