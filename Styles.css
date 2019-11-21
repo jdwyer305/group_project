@@ -1,0 +1,140 @@
+/* Kenney's CSS */
+{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #B30005;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #6c757d;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: #6c757d;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #6c757d;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #B30005;
+}
+
+h1 {
+
+text-align: center;
+font-family: 'Tomorrow', sans-serif;
+font-weight: bold;
+color: #6c757d;
+
+}
+
+h4 {
+
+text-align: center;
+font-weight: bolder;
+
+}
+
+.pics img {
+    width: 200px;
+    height: 200px;
+    margin: auto;    
+    display: block;
+}
+
+.pics .link {
+
+
+width: 25px;
+height: 25px;
+
+}
+
+.texts p {
+
+margin-left: 20px;
+ 
+}
+
+.texts {
+
+font-family: 'Tomorrow', sans-serif;
+
+  
+}
+
+
+/*This code is for background image */
+body {
+  
+  background-image: url('grape-vine-ConvertImage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+
+}
+
