@@ -1,0 +1,291 @@
+/* CSS Style Sheet */
+@font-face {
+    font-family: 'roboto','Rubik','PT Serif', serif,'arial','Helvetica Neue', 'Helvetica', 'sans-serif';
+	}
+
+html {
+  background-image: url("https://www.augeanrobotics.com/images/Farmplants.jpg");
+  background-color: rgb(255,255,255,1);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height:100%;
+}
+
+
+#hone{
+	color:rgba(0,0,0,1);
+	font-size:20px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+
+
+}
+
+
+/*Body*/
+
+body{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	margin-top: 0px;
+	min-width:1024px;
+	width: 100%;
+	font-family: 'roboto','Rubik','PT Serif', serif,'arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	overflow:scroll;
+}
+
+#main{
+  	width: 100%;
+	height:1000px;
+    overflow:hidden;
+    background-color: rgba(204,204,204,0.9);
+	float: left;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: .15em;
+    font-size: 1em;
+    color: rgba(43,45,50,1.0);
+}
+#mainspacer{
+  	width: 100%;
+	height:100px;
+    overflow:hidden;
+	background-color: rgba(204,204,204,0.9);
+	float: left;
+    display: block;
+}
+
+#contmain1{
+	margin: auto;
+	width:1024px;
+	height: 2925PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: Hidden;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+}
+
+/*Data Page only*/
+#contmaindata{
+	margin: auto;
+	width:1024px;
+	height: 1925PX;
+	background-color: rgba(255,255,255,.95);
+	overflow: Hidden;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+}
+#datatitle1{
+	height:40px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	top:10px;
+	color:rgba(0,94,29,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+
+#datatitle2{
+	width:1024px;
+	height:40px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	top:10px;
+	color:rgba(80,80,80,1);
+	font-size:22px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+
+#databox1{
+	background-color: rgba(69,122,28,1);
+	position: absolute;
+	display: block;
+	top:200px;
+	width:500px;
+	height:220px;
+}
+
+#databox2{
+	background-color: rgba(80,80,80,1);
+	position: absolute;
+	display: block;
+	top:200px;
+	width:500px;
+	right:120px;
+	height:220px;
+}
+
+#dataaccent{
+	font-weight: bold;
+	color:rgba(248,204,33,1);
+}
+
+#datatitle3{
+	height:40px;
+	float: Center;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	top:10px;
+	left: 5px;
+	color:rgba(255,255,255,1);
+	font-size:22px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+#datatext1{
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	color:rgba(255,255,255,1);
+	font-size:14px;
+	text-align:left;
+	vertical-align:text-bottom;
+}
+#datatitle4{
+	height:40px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:absolute;
+	top:440px;
+	color:rgba(0,94,29,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:left;
+	vertical-align:text-bottom;
+	}
+#datamap{
+	position: absolute;
+	top:500px;
+}
+
+/*Careers Page only*/
+#contmaincareers{
+	margin: auto;
+	width:1024px;
+	height: 1475PX;
+	background-color: rgba(255,255,255,.95);
+}
+#careerstitle{
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:absolute;
+	Top:120px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#careerstext{
+	min-height: auto;
+    overflow: Hidden;
+	top:100px;
+	position:relative;
+	color:rgba(0,0,0,1);
+	padding-left:1%;
+	padding-right:1%;
+	font-size:18px;
+	text-align:left;
+}
+#Openroles{
+	width:1024px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	top:125px;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+}
+#cto{
+	top:150px;
+	position:relative;
+	padding-left:1%;
+	padding-right:1%;
+	font-size:19px;
+	text-align:left;
+}
+
+/* unvisited link */
+#cto a:link {
+    color: rgba(0,0,0,1);
+}
+/* visited link */
+#cto a:visited {
+    color: rgba(0,0,0,1);
+}
+/* mouse over link */
+#cto a:hover {
+	color: rgba(14,138,250,1);
+}
+/* selected link */
+#cto a:active {
+    color: rgba(14,138,250,1);
+}
+#careerswhatwedo{
+	min-height: auto;
+    overflow: Hidden;
+	top:200px;
+	position:relative;
+	color:rgba(0,0,0,1);
+	font-size:18px;
+	text-align:left;
+}
+
+
+/*contact us page only*/
+#contactustitle{
+	width:1024px;
+	height:32px;
+	float: left;
+	Text-align: justify;
+	overflow: Hidden;
+	position:relative;
+	color:rgba(69,122,28,1);
+	font-size:30px;
+	top:10px;
+	font-weight: bold;
+	text-align:center;
+	vertical-align:text-bottom;
+	}
+#map{
+}
+#contactfooter{
+	background-color: #2B2D32;
+	clear: both;
+	width:100%;
+	min-width: 1024px;
+	height: 250px;
+	overflow: auto;
+	padding-top: 0%;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
