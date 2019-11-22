@@ -103,5 +103,8 @@ body {
 }
 
 #qatext{
+	background-color: #888888;
+	border-style: solid;
+	border-color: #db0e13;
 	color: white;
 }
