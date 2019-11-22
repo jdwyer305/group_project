@@ -127,6 +127,9 @@ font-family: 'Tomorrow', sans-serif;
   
 }
 
+.nav li {
+  display:inline-block;
+}
 
 /* Kenny's Body */
 /*This code is for background image */
@@ -139,6 +142,70 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   color: #f1f1f1;
-  /*width: 100%;
-  height: 100%;*/
+}
+
+.menu {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 17px;
+}
+
+.menu li:hover{
+  background: #B30005
+}
+
+.MEET {
+    color: white;
+    font-size: 100px;
+}
+
+.AUTO {
+    color: white;
+    font-size: 40px;
+}
+
+.img-overlay {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 27%;
+}
+
+.nav li {
+  display:inline-block;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 15px;
+}
+
+.robotimg {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#videos {
+	position:relative;
+	margin: auto;
+	width:1024px;
+	left:0;
+	right:0;
+	top:25px;
+	overflow: Hidden;
 }
