@@ -2,12 +2,14 @@
 	margin-top:1em;
 	margin-bottom: 1em;
 	font-family: 'Tomorrow', sans-serif;
+	color: #b30005;
 }
 
 
 #textbox{
 	border-bottom: 1px black;
 	font-family: 'Tomorrow', sans-serif;
+	color: #b30005;
 }
 
 #coverage{
@@ -23,6 +25,7 @@
 #box-titles{
 	margin-top:1em;
 	font-family: 'Tomorrow', sans-serif;
+	color: #b30005;
 }
 
 #myVideo {
