@@ -132,7 +132,7 @@ font-family: 'Tomorrow', sans-serif;
 /*This code is for background image */
 body {
   
-  background-image: url('grape-vine-ConvertImage.jpg');
+  background-image: url('images/grape-vine-ConvertImage.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 100% 100%;
