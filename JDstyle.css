@@ -11,10 +11,10 @@
 
 #textbox{
 	font-family: 'Tomorrow', sans-serif;
-	background-color: white;
+	background-color: #88888;
 	border-style: solid;
 	border-color: #db0e13;
-	color: black;
+	color: white;
 }
 
 #coverage{
