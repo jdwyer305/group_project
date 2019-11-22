@@ -30,8 +30,8 @@
 #box-titles{
 	margin-top:1em;
 	font-family: 'Tomorrow', sans-serif;
-	color: #db0e13;
-	text-shadow: 2px 2px white;
+	color: white;
+	text-shadow: 2px 2px #db0e13;
 }
 
 #myVideo {
