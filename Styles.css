@@ -1,6 +1,11 @@
 /* Kenney's CSS */
 {box-sizing:border-box}
 
+#opacity{
+	background-color: white;
+	opacity: 0.5;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
