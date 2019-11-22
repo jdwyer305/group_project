@@ -2,10 +2,12 @@ p {
     font-family: 'Tomorrow', sans-serif;
 }
 
-#opacity{
-	background-color: white;
-	opacity: 0.5;
+h{
+    font-family: 'Tomorrow', sans-serif;	
+    color: white;
+    text-shadow: 2px 2px #db0e13;
 }
+
 
 #myVideo {
     position: fixed;
