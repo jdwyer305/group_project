@@ -1,7 +1,4 @@
-#opacity{
-	background-color: white;
-	opacity: 0.5;
-}
+
 
 #header{
 	margin-top:1em;
@@ -13,9 +10,10 @@
 
 #textbox{
 	font-family: 'Tomorrow', sans-serif;
-	background-color: #c7c7c7;
+	background-color: white;
 	border-style: solid;
 	border-color: #db0e13;
+	color: black;
 }
 
 #coverage{
