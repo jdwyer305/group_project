@@ -1,11 +1,13 @@
 #header{
 	margin-top:1em;
 	margin-bottom: 1em;
+	font-family: 'Tomorrow', sans-serif;
 }
 
 
 #textbox{
 	border-bottom: 1px black;
+	font-family: 'Tomorrow', sans-serif;
 }
 
 #coverage{
