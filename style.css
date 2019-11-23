@@ -1,44 +1,6 @@
-/* CSS Style Sheet */
-@font-face {
-    font-family: 'roboto','Rubik','PT Serif', serif,'arial','Helvetica Neue', 'Helvetica', 'sans-serif';
-	}
-
-html {
-  background-image: url("https://www.augeanrobotics.com/images/Farmplants.jpg");
-  background-color: rgb(255,255,255,1);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  height:100%;
-}
-
-
-#hone{
-	color:rgba(0,0,0,1);
-	font-size:20px;
-	font-weight: bold;
-	text-align:left;
-	vertical-align:text-bottom;
-	}
-
-
-}
-
+/* Mike's CSS Style Sheet */
 
 /*Body*/
-
-body{
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
-	margin-top: 0px;
-	min-width:1024px;
-	width: 100%;
-	font-family: 'roboto','Rubik','PT Serif', serif,'arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-	overflow:scroll;
-}
-
-
 #contmain1{
 	margin: auto;
 	width:1024px;
@@ -73,7 +35,7 @@ body{
 	}
 #careerstext{
 	min-height: auto;
-    overflow: Hidden;
+        overflow: Hidden;
 	top:100px;
 	position:relative;
 	color:rgba(0,0,0,1);
@@ -82,47 +44,10 @@ body{
 	font-size:18px;
 	text-align:left;
 }
-#Openroles{
-	width:1024px;
-	float: left;
-	Text-align: justify;
-	overflow: Hidden;
-	position:relative;
-	top:125px;
-	color:rgba(69,122,28,1);
-	font-size:30px;
-	font-weight: bold;
-	text-align:center;
-	vertical-align:text-bottom;
-}
-#cto{
-	top:150px;
-	position:relative;
-	padding-left:1%;
-	padding-right:1%;
-	font-size:19px;
-	text-align:left;
-}
 
-/* unvisited link */
-#cto a:link {
-    color: rgba(0,0,0,1);
-}
-/* visited link */
-#cto a:visited {
-    color: rgba(0,0,0,1);
-}
-/* mouse over link */
-#cto a:hover {
-	color: rgba(14,138,250,1);
-}
-/* selected link */
-#cto a:active {
-    color: rgba(14,138,250,1);
-}
 #careerswhatwedo{
 	min-height: auto;
-    overflow: Hidden;
+        overflow: Hidden;
 	top:200px;
 	position:relative;
 	color:rgba(0,0,0,1);
@@ -132,7 +57,7 @@ body{
 
 
 /*contact us page only*/
-#contactustitle{
+/*#contactustitle{
 	width:1024px;
 	height:32px;
 	float: left;
@@ -145,7 +70,7 @@ body{
 	font-weight: bold;
 	text-align:center;
 	vertical-align:text-bottom;
-	}
+	}*/
 
 #contactfooter{
 	background-color: #2B2D32;
