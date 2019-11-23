@@ -34,7 +34,7 @@
 	vertical-align:text-bottom;
 	}
 #careerstext{
-	min-height: auto;
+	min-height:auto;
         overflow: Hidden;
 	top:100px;
 	position:relative;
@@ -57,7 +57,7 @@
 
 
 /*contact us page only*/
-/*#contactustitle{
+#contactustitle{
 	width:1024px;
 	height:32px;
 	float: left;
@@ -70,7 +70,7 @@
 	font-weight: bold;
 	text-align:center;
 	vertical-align:text-bottom;
-	}*/
+	}
 
 #contactfooter{
 	background-color: #2B2D32;
