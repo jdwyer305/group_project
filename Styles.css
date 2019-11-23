@@ -1,7 +1,24 @@
 /* Kenney's CSS */
 {box-sizing:border-box}
 
+h1 {
 
+text-align: center;
+font-family: 'Tomorrow', sans-serif;
+font-weight: bold;
+color:white;
+text-shadow: 2px 2px #db0e13;
+
+}
+
+h4 {
+
+text-align: center;
+font-weight: bolder;
+color:white;
+text-shadow: 2px 2px #db0e13;
+
+}
 p{
 	background-color: #888888;
 	border-style: solid;
