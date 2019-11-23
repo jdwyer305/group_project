@@ -27,15 +27,12 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-$(document.getElementsByClassName("dot")
-[3]).keypress(function(e) {
+$(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
-    
-$(document.getElementsByClassName("dot")
-  [3]).click();
-      }
+    $(document.getElementsByClassName("dot")[3]).click();
+  }
   });
 
     
