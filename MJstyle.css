@@ -21,6 +21,21 @@ h1{
 	text-align:left;
 }
 
+#partcontact{
+	background-color: #888888;
+	border-style: solid;
+	border-color: #db0e13;
+	color: white;
+        min-height:auto;
+        overflow: Hidden;
+	top:1px;
+	position:relative;;
+	padding-left:2%;
+	padding-right:2%;
+	font-size:16px;
+	text-align:left;
+}
+
 
 
 
