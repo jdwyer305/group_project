@@ -14,8 +14,7 @@ h1{
 	min-height:auto;
         overflow: Hidden;
 	top:100px;
-	position:relative;
-	color:rgba(0,0,0,1);
+	position:relative;;
 	padding-left:5%;
 	padding-right:0%;
 	font-size:18px;
