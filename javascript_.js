@@ -34,19 +34,19 @@ function showSlides(n) {
     //$(document.getElementsByClassName("#prev").click();
   //}
   //});
-//$(document.getElementById("#next")).keypress(function(e) {
+$(document.getElementById("#next")).keypress(function(e) {
   //check if enter is pressed
-  //if (e.keyCode == 13) {
-    //click your link
-    //$(document.getElementsByClassName("#next").click();
-  //}
-  //});
+  if (e.keyCode == 13) {
+  //click your link
+    $(document.getElementById("#next").click();
+ }
+ });
 
 $(document.getElementsByClassName("dot")[0]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
-    $(document.getElementsByClassName("dot")[0]).click();
+    $(document.getElementById("dot")[0]).click();
   }
   });
 
