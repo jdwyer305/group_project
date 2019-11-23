@@ -118,7 +118,7 @@ burro{
 	border-color: #db0e13;
 	color: white;
 }
-over{
+.overview{
 	background-color: #888888;
 	border-style: solid;
 	border-color: #db0e13;
@@ -132,6 +132,13 @@ over{
 }
 
 #par{
+	background-color: #888888;
+	border-style: solid;
+	border-color: #db0e13;
+	color: white;	
+}
+
+#ExpansionKitstext{
 	background-color: #888888;
 	border-style: solid;
 	border-color: #db0e13;
