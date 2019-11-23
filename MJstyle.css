@@ -1,88 +1,15 @@
 /* Mike's CSS Style Sheet */
-
-/*Body*/
-#contmain1{
-	margin: auto;
-	width:1024px;
-	height: 2925PX;
-	background-color: rgba(255,255,255,.95);
-	overflow: Hidden;
-	color:rgba(0,0,0,1);
-	font-size:18px;
-	text-align:left;
-}
-
-/*Careers Page only*/
-#contmaincareers{
-	margin: auto;
-	width:1024px;
-	height: 1475PX;
-	background-color: rgba(255,255,255,.95);
-}
-#careerstitle{
-	width:1024px;
-	height:32px;
-	float: left;
-	Text-align: justify;
-	overflow: Hidden;
-	position:absolute;
-	Top:120px;
-	color:rgba(69,122,28,1);
-	font-size:30px;
-	font-weight: bold;
-	text-align:center;
-	vertical-align:text-bottom;
-	}
 #careerstext{
 	min-height:auto;
         overflow: Hidden;
 	top:100px;
 	position:relative;
 	color:rgba(0,0,0,1);
-	padding-left:1%;
-	padding-right:1%;
-	font-size:18px;
-	text-align:left;
-}
-
-#careerswhatwedo{
-	min-height: auto;
-        overflow: Hidden;
-	top:200px;
-	position:relative;
-	color:rgba(0,0,0,1);
+	padding-left:0%;
+	padding-right:5%;
 	font-size:18px;
 	text-align:left;
 }
 
 
-/*contact us page only*/
-#contactustitle{
-	width:1024px;
-	height:32px;
-	float: left;
-	Text-align: justify;
-	overflow: Hidden;
-	position:relative;
-	color:rgba(69,122,28,1);
-	font-size:30px;
-	top:10px;
-	font-weight: bold;
-	text-align:center;
-	vertical-align:text-bottom;
-	}
 
-#contactfooter{
-	background-color: #2B2D32;
-	clear: both;
-	width:100%;
-	min-width: 1024px;
-	height: 250px;
-	overflow: auto;
-	padding-top: 0%;
-	bottom: 0;
-	left: 0;
-	position: relative;
-	float: left;
-	overflow: hidden;
-}
