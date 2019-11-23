@@ -1,16 +1,6 @@
 /* Kenney's CSS */
 {box-sizing:border-box}
 
-body {
-  
-  background-image: url('images/grape-vine-ConvertImage.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  /*color: #f1f1f1; */
-}
 
 p{
 	background-color: #888888;
@@ -113,7 +103,10 @@ color:white;
 text-shadow: 2px 2px #db0e13;
 
 }
-
+head{
+	color:white;
+	text-shadow: 2px 2px #db0e13;
+}
 h4 {
 
 text-align: center;
@@ -147,6 +140,8 @@ margin-left: 20px;
 .texts {
 
 font-family: 'Tomorrow', sans-serif;
+color:white;
+text-shadow: 2px 2px #db0e13;
 
   
 }
@@ -157,7 +152,7 @@ font-family: 'Tomorrow', sans-serif;
 
 /* Kenny's Body */
 /*This code is for background image */
-/*
+
 body {
   
   background-image: url('images/grape-vine-ConvertImage.jpg');
@@ -166,9 +161,9 @@ body {
   background-position: center center;
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
-  /*color: #f1f1f1; */
+  color: #f1f1f1; 
 }
-*/
+
 .menu {
     font-family: 'Tomorrow', sans-serif;
     font-size: 17px;
