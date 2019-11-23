@@ -27,13 +27,13 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//$(document.getElementById("#prev")).keypress(function(e) {
+$(document.getElementById("#prev")).keypress(function(e) {
   //check if enter is pressed
-  //if (e.keyCode == 13) {
+  if (e.keyCode == 13) {
     //click your link
-    //$(document.getElementsByClassName("#prev").click();
-  //}
-  //});
+    $(document.getElementById("#prev").click();
+  }
+  });
 $(document.getElementById("#next")).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
@@ -46,7 +46,7 @@ $(document.getElementsByClassName("dot")[0]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
-    $(document.getElementById("dot")[0]).click();
+    $(document.getElementsByClassName("dot")[0]).click();
   }
   });
 
