@@ -1,9 +1,21 @@
 /* Kenney's CSS */
 {box-sizing:border-box}
 
-#opacity{
-	background-color: white;
-	opacity: 0.5;
+h1{
+	color:white;
+	text-shadow: 2px 2px #db0e13;
+}
+
+h4{
+	color:white;
+	text-shadow: 2px 2px #db0e13;
+}
+
+p{
+	background-color: #888888;
+	border-style: solid;
+	border-color: #db0e13;
+	color: white;
 }
 
 /* Slideshow container */
