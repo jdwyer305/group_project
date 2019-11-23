@@ -17,6 +17,9 @@ p{
 	border-color: #db0e13;
 	color: white;
 }
+a{
+	color:white;
+}
 
 /* Slideshow container */
 .slideshow-container {
