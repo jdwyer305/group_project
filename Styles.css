@@ -156,7 +156,7 @@ body {
   background-position: center center;
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
-  color: #f1f1f1;
+  /*color: #f1f1f1; */
 }
 
 .menu {
