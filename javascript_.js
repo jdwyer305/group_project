@@ -27,14 +27,14 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-$(document.getElementById("#prev").keypress(function(e) {
+//$(document.getElementById("#prev").keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
     $(document.getElementsByClassName("#prev").click();
   }
   });
-$(document.getElementById("#next").keypress(function(e) {
+//$(document.getElementById("#next").keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -42,7 +42,7 @@ $(document.getElementById("#next").keypress(function(e) {
   }
   });
 
-$(document.getElementsByClassName("dot")[0]).keypress(function(e) {
+//$(document.getElementsByClassName("dot")[0]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -50,7 +50,7 @@ $(document.getElementsByClassName("dot")[0]).keypress(function(e) {
   }
   });
 
-$(document.getElementsByClassName("dot")[1]).keypress(function(e) {
+//$(document.getElementsByClassName("dot")[1]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -58,7 +58,7 @@ $(document.getElementsByClassName("dot")[1]).keypress(function(e) {
   }
   });
 
-$(document.getElementsByClassName("dot")[2]).keypress(function(e) {
+//$(document.getElementsByClassName("dot")[2]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -66,7 +66,7 @@ $(document.getElementsByClassName("dot")[2]).keypress(function(e) {
   }
   });
    
-$(document.getElementsByClassName("dot")[3]).keypress(function(e) {
+//$(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -74,7 +74,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
  
- $(document.getElementsByClassName("dot")[4]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[4]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -82,7 +82,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
  
- $(document.getElementsByClassName("dot")[5]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[5]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -90,7 +90,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[6]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[6]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -98,7 +98,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[7]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[7]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -106,7 +106,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[8]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[8]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -114,7 +114,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[9]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[9]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -122,7 +122,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[10]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[10]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -130,7 +130,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[11]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[11]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -138,7 +138,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[12]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[12]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -146,15 +146,15 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[13]).keypress(function(e) {
-  //check if enter is pressed
+ //$(document.getElementsByClassName("dot")[13]).keypress(function(e) {
+   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
     $(document.getElementsByClassName("dot")[13]).click();
   }
   });
     
- $(document.getElementsByClassName("dot")[14]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[14]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -162,7 +162,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
- $(document.getElementsByClassName("dot")[15]).keypress(function(e) {
+ //$(document.getElementsByClassName("dot")[15]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -170,13 +170,13 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
-  $(document.getElementsByClassName("dot")[16]).keypress(function(e) {
+  //$(document.getElementsByClassName("dot")[16]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
     $(document.getElementsByClassName("dot")[16]).click();
   }
-  });
+  }); //
     
  
     
