@@ -1,12 +1,23 @@
 /* Mike's CSS Style Sheet */
+
+p {
+    font-family: 'Tomorrow', sans-serif;
+}
+
+h1{
+    font-family: 'Tomorrow', sans-serif;	
+    color: white;
+    text-shadow: 2px 2px #db0e13;
+}
+
 #careerstext{
 	min-height:auto;
         overflow: Hidden;
 	top:100px;
 	position:relative;
 	color:rgba(0,0,0,1);
-	padding-left:0%;
-	padding-right:5%;
+	padding-left:5%;
+	padding-right:0%;
 	font-size:18px;
 	text-align:left;
 }
