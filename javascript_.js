@@ -31,14 +31,14 @@ $(document.getElementById("#prev")).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
-    $(document.getElementById("#prev").click();
+    $(document.getElementById("#prev").click());
   }
   });
 $(document.getElementById("#next")).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
   //click your link
-    $(document.getElementById("#next").click();
+    $(document.getElementById("#next").click());
  }
  });
 
