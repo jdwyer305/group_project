@@ -1,7 +1,16 @@
 /* Kenney's CSS */
 {box-sizing:border-box}
 
-
+body {
+  
+  background-image: url('images/grape-vine-ConvertImage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  /*color: #f1f1f1; */
+}
 
 p{
 	background-color: #888888;
@@ -148,6 +157,7 @@ font-family: 'Tomorrow', sans-serif;
 
 /* Kenny's Body */
 /*This code is for background image */
+/*
 body {
   
   background-image: url('images/grape-vine-ConvertImage.jpg');
@@ -158,7 +168,7 @@ body {
   background-size: cover;
   /*color: #f1f1f1; */
 }
-
+*/
 .menu {
     font-family: 'Tomorrow', sans-serif;
     font-size: 17px;
