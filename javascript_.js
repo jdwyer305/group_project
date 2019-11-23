@@ -42,14 +42,6 @@ $(document.getElementById("#next").keypress(function(e) {
   }
   });
 
-$(document.getElementsByClassName("dot")[0]).keypress(function(e) {
-  //check if enter is pressed
-  if (e.keyCode == 13) {
-    //click your link
-    $(document.getElementsByClassName("dot")[0]).click();
-  }
-  });
-
 $(document.getElementsByClassName("dot")[1]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
@@ -65,7 +57,7 @@ $(document.getElementsByClassName("dot")[2]).keypress(function(e) {
     $(document.getElementsByClassName("dot")[2]).click();
   }
   });
-   
+
 $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
@@ -73,8 +65,8 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
     $(document.getElementsByClassName("dot")[3]).click();
   }
   });
- 
- $(document.getElementsByClassName("dot")[4]).keypress(function(e) {
+   
+$(document.getElementsByClassName("dot")[4]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
@@ -89,7 +81,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
     $(document.getElementsByClassName("dot")[5]).click();
   }
   });
-    
+ 
  $(document.getElementsByClassName("dot")[6]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
@@ -147,7 +139,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   });
     
  $(document.getElementsByClassName("dot")[13]).keypress(function(e) {
-   //check if enter is pressed
+  //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
     $(document.getElementsByClassName("dot")[13]).click();
@@ -155,7 +147,7 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   });
     
  $(document.getElementsByClassName("dot")[14]).keypress(function(e) {
-  //check if enter is pressed
+   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
     $(document.getElementsByClassName("dot")[14]).click();
@@ -170,11 +162,19 @@ $(document.getElementsByClassName("dot")[3]).keypress(function(e) {
   }
   });
     
-  $(document.getElementsByClassName("dot")[16]).keypress(function(e) {
+ $(document.getElementsByClassName("dot")[16]).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
     $(document.getElementsByClassName("dot")[16]).click();
+  }
+  });
+    
+  $(document.getElementsByClassName("dot")[17]).keypress(function(e) {
+  //check if enter is pressed
+  if (e.keyCode == 13) {
+    //click your link
+    $(document.getElementsByClassName("dot")[17]).click();
   }
   }); //
     
