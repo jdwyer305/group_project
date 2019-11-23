@@ -27,14 +27,14 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-$(document.getElementById("#prev").keypress(function(e) {
+$(document.getElementById("#prev")).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
     $(document.getElementsByClassName("#prev").click();
   }
   });
-$(document.getElementById("#next").keypress(function(e) {
+$(document.getElementById("#next")).keypress(function(e) {
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
