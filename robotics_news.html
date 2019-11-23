@@ -144,14 +144,14 @@
   </div>
 
   <!-- Next and Previous buttons -->
-  <a tabindex="0" class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a tabindex="0" class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a tabindex="0" id="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a tabindex="0" id="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
 
 <!-- Circles on bottom of slides -->
 <div style="text-align:center">        
-  <a onclick="currentSlide(1)> <span tabindex="0" class="dot"></span></a>
+  <span tabindex="0" class="dot" onclick="currentSlide(1)"></span>
   <span tabindex="0" class="dot" onclick="currentSlide(2)"></span>
   <span tabindex="0" class="dot" onclick="currentSlide(3)"></span>
   <span tabindex="0" class="dot" onclick="currentSlide(4)"></span>
