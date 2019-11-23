@@ -32,8 +32,8 @@ $(document.getElementsByClassName("dot")
   //check if enter is pressed
   if (e.keyCode == 13) {
     //click your link
-        $
- (document.getElementsByClassName("dot")
+    
+$(document.getElementsByClassName("dot")
   [3]).click();
       }
   });
