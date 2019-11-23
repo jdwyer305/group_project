@@ -10,6 +10,7 @@ h1{
     text-shadow: 2px 2px #db0e13;
 }
 
+/* This is text for the Careers page */
 #careerstext{
 	min-height:auto;
         overflow: Hidden;
@@ -21,6 +22,7 @@ h1{
 	text-align:left;
 }
 
+/* This is for the border and text for the Contact Us page */
 #partcontact{
 	background-color: #888888;
 	border-style: solid;
@@ -36,7 +38,7 @@ h1{
 	text-align:left;
 }
 
-
+/* This is the border for the Open Roles heading in the Careers page */
 #linkborder{
 	background-color: #888888;
 	border-style: solid;
